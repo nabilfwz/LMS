@@ -38,7 +38,7 @@ export const signUpAction = async (req, res) => {
           email: user.email,
         },
         callbacks: {
-          finish: "http://localhost:5173/success-checkout",
+          finish: "https://lms-frontend-fix-bismillah.vercel.app/success-checkout",
         },
       }),
       headers: {
